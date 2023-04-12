@@ -11,7 +11,7 @@ module.exports = {
             exclude: ['createdAt', 'updatedAt','id']
            },
         order:[
-          ['NIP','ASC', 'test']
+          ['NIP','ASC']
         ]
       })
       .then((dosen) => {
