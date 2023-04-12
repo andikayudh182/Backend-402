@@ -14,13 +14,17 @@ module.exports = {
           model:'User',
           key:'id_user'
         },
+        unique:true,
         onDelete:'cascade',
         onUpdate:'cascade'
       },
       nama: {
+        allowNull:false,
         type: Sequelize.STRING
       },
       email: {
+        allowNull:false,
+        unique:true,
         type: Sequelize.STRING
       },
     });

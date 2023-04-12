@@ -16,7 +16,8 @@ module.exports = {
         }
       },
       nama_jurusan: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull: false
       },
     });
   },
